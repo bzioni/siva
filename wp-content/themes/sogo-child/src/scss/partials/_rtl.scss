@@ -1,0 +1,53 @@
+body.rtl {
+  text-align: right;
+
+
+  .arrowdown {
+    &:after {
+      right: unset !important;
+      @extend .pos-l-2;
+    }
+  }
+  .component-box-2 {
+    .has-recommendations {
+      &:before {
+        right: unset !important;
+        left: 100%;
+      }
+    }
+  }
+  .custom-control {
+    padding-left: 1.5rem;
+    padding-right: 0;
+  }
+  .custom-control-label {
+    padding-right: 0.5rem;
+    &:before {
+      left: 0rem;
+      right: -1rem;
+
+    }
+    &:after {
+      left: 0rem;
+      right: -1rem;
+    }
+  }
+
+  .searchform {
+    input[type='text'] {
+      padding: 12px 15px 12px 38px;
+    }
+    button[type='submit'] {
+      right: unset;
+      left: 0;
+    }
+  }
+
+  footer {
+    aside {
+      @include media-breakpoint-up(md) {
+        text-align: right;
+      }
+    }
+  }
+}

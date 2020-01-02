@@ -1,0 +1,106 @@
+.text-slider-title {
+  font-size: $slider-title-font-size-mobile;
+  font-weight: $slider-title-font-weight;
+  @media (min-width: 992px) {
+    font-size: $slider-title-font-size;
+  }
+}
+
+.text-slider-subtitle {
+  font-size: $slider-subtitle-font-size-mobile;
+  font-weight: $slider-subtitle-font-weight;
+  @media (min-width: 992px) {
+    font-size: $slider-subtitle-font-size;
+  }
+}
+
+h1, .h1 {
+  font-size: $h1-font-size-mobile;
+  font-weight: $h1-font-weight;
+  @media (min-width: 992px) {
+    font-size: $h1-font-size;
+  }
+}
+
+h2, .h2 {
+  font-size: $h2-font-size-mobile;
+  font-weight: $h2-font-weight;
+  @media (min-width: 992px) {
+    font-size: $h2-font-size;
+  }
+}
+
+h3, .h3 {
+  font-size: $h3-font-size-mobile;
+  font-weight: $h3-font-weight;
+  @media (min-width: 992px) {
+    font-size: $h3-font-size;
+  }
+}
+
+h4, .h4 {
+  font-size: $h4-font-size-mobile;
+  font-weight: $h4-font-weight;
+  @media (min-width: 992px) {
+    font-size: $h4-font-size;
+  }
+}
+
+h5, .h5 {
+  font-size: $h5-font-size-mobile;
+  font-weight: $h5-font-weight;
+  @media (min-width: 992px) {
+    font-size: $h5-font-size;
+  }
+}
+
+h6, .h6 {
+  font-size: $h6-font-size-mobile;
+  font-weight: $h6-font-weight;
+  @media (min-width: 992px) {
+    font-size: $h6-font-size;
+  }
+}
+
+p, .p {
+  font-size: $p-font-size-mobile;
+  font-weight: $p-font-weight;
+  @media (min-width: 992px) {
+    font-size: $p-font-size;
+  }
+}
+
+.text-bread-crumbs {
+  font-size: $bread-crumbs-font-size-mobile;
+  font-weight: $bread-crumbs-font-weight;
+  @media (min-width: 992px) {
+    font-size: $bread-crumbs-font-size;
+  }
+}
+.icon-xxs {
+  font-size: $icon-xxs;
+}
+.icon-xs {
+  font-size: $icon-xs;
+}
+
+.icon-s {
+  font-size: $icon-s;
+}
+
+.icon-m {
+  font-size: $icon-m;
+}
+
+.icon-l {
+  font-size: $icon-l;
+}
+
+.icon-xl {
+  font-size: $icon-xl;
+}
+
+.icon-xxl {
+  font-size: $icon-xxl;
+
+}

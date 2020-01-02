@@ -1,0 +1,1 @@
+<a class="px-2 py-1 btn-dark position-fixed pos-t-5 pos-r-2 d-none d-md-block" style="z-index: 999" href="<?php echo get_admin_url() ?>" target="_blank">WP-admin</a>

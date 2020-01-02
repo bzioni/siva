@@ -1,0 +1,75 @@
+/*
+Theme Name: SOGO Child
+Theme URI: http://sogo.co.il/
+Template:   sogo
+Author: Oren Havshush
+Author URI: https://sogo.co.il/
+Description: SOGO child theme
+Version: 1.0
+License: Commercial Use only
+License URI: Commercial Use only
+Text Domain: sogo
+*/
+@import "partials/variables";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+$fa-font-path: "assets/fonts/font-awesome/";
+@import "../../../node_modules/font-awesome/scss/font-awesome";
+@import '../../../node_modules/aos/dist/aos';
+@import "partials/hamburgers/hamburgers";
+@import '../../../node_modules/sweetalert2/src/sweetalert2';
+
+@import "partials/root";
+@import "partials/mixins";
+@import "partials/header";
+@import "partials/footer";
+@import "partials/content";
+@import "partials/fonts";
+@import "partials/text";
+@import "partials/icons";
+@import "partials/sogo-classes";
+@import "partials/pagination";
+@import "partials/addtoany";
+@import "partials/slick";
+@import "partials/articles-sidebar";
+@import "partials/breadcrumbs";
+@import "partials/buttons";
+@import "partials/component-box-1";
+@import "partials/component-box-2";
+@import "partials/cf7";
+@import "partials/forms";
+@import "partials/scrolltop";
+@import "partials/blog-search-form";
+@import "partials/custom";
+@import "partials/search-component";
+@import "partials/avatar-component";
+
+// page about
+.page-template-page-about {
+  .nav-link {
+    @include transition();
+    border-bottom: 1px solid theme-color('color-2');
+    &.active {
+      color: theme-color('color-3');
+      border-bottom: 2px solid theme-color('color-3');
+    }
+  }
+}
+
+// page forms
+.active-tab {
+  @extend .bg-color-1, .text-white, .px-1, .py-0-1, .rounded;
+}
+
+.hover-form-component {
+  @include transition();
+  &:hover {
+    @extend .shadow;
+    .icon-download-wrapper {
+      @include transition();
+      background-color: theme-color('color-1') !important;
+    }
+  }
+}
+
+@import "partials/rtl";
+

@@ -1,0 +1,16 @@
+.widget-articles-sidebar {
+  h3 {
+    color: theme-color('color-1');
+    @extend .h5;
+  }
+  ul {
+    padding: 0;
+    li {
+      list-style: none;
+      a {
+        color: theme-color('color-3');
+        @extend .h5;
+      }
+    }
+  }
+}

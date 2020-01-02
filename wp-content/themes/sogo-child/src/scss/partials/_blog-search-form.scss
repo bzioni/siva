@@ -1,0 +1,47 @@
+.searchform {
+  width: 100%;
+  padding: 0 20px;
+  max-width: 640px;
+  cursor: pointer;
+  @extend .transition;
+  text-align: center;
+  position: relative;
+  > div {
+    position: relative;
+  }
+  input[type='text'] {
+    width: 100%;
+    display: block;
+    font-family: $font-family-sans-serif;
+    border: 1px solid theme-color('color-2');
+    border-radius: $input-border-radius;
+    //line-height: 1.5;
+    //font-size: 0.6rem;
+    position: relative;
+    background: transparent;
+    padding: 12px 38px 15px 12px;
+    height: 45px;
+    &:focus {
+      outline: 0;
+    }
+    &::placeholder {
+      @extend .h6;
+      color: theme-color('color-1');
+    }
+  }
+  button[type='submit'] {
+
+    padding: 0;
+    background: transparent;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 3;
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    -webkit-appearance: none !important;
+  }
+}
+

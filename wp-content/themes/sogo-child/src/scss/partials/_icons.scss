@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('./assets/fonts/icomoon/icomoon.eot?zhz4ji');
+  src:  url('./assets/fonts/icomoon/icomoon.eot?zhz4ji#iefix') format('embedded-opentype'),
+  url('./assets/fonts/icomoon/icomoon.ttf?zhz4ji') format('truetype'),
+  url('./assets/fonts/icomoon/icomoon.woff?zhz4ji') format('woff'),
+  url('./assets/fonts/icomoon/icomoon.svg?zhz4ji#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-arrowdown:before {
+  content: "\e900";
+}
+.icon-arrowup:before {
+  content: "\e901";
+}
+.icon-arrowleft:before {
+  content: "\e902";
+}
+.icon-arrowright:before {
+  content: "\e903";
+}
+.icon-user:before {
+  content: "\e904";
+}
+.icon-search:before {
+  content: "\e905";
+}
+.icon-searchtherapist:before {
+  content: "\e906";
+}
+.icon-publishtherapist:before {
+  content: "\e907";
+}
+.icon-helptherapist:before {
+  content: "\e908";
+}
+.icon-detectiontherapist:before {
+  content: "\e909";
+}
+.icon-plus:before {
+  content: "\e90a";
+}
+.icon-close:before {
+  content: "\e90b";
+}
+.icon-bubble:before {
+  content: "\e90c";
+}
+.icon-star:before {
+  content: "\e90d";
+}
+.icon-location:before {
+  content: "\e90e";
+}
+.icon-day:before {
+  content: "\e90f";
+}
+.icon-night:before {
+  content: "\e910";
+}
+.icon-driving:before {
+  content: "\e911";
+}
+.icon-area:before {
+  content: "\e912";
+}
+.icon-checkcircle:before {
+  content: "\e913";
+}
+.icon-download:before {
+  content: "\e914";
+}
+.icon-phone:before {
+  content: "\e915";
+}
+.icon-address:before {
+  content: "\e916";
+}
+.icon-mail:before {
+  content: "\e917";
+}
+.icon-logout:before {
+  content: "\e918";
+}
+.icon-facebook:before {
+  content: "\e919";
+}
+.icon-twitter:before {
+  content: "\e91a";
+}
+.icon-whatsapp:before {
+  content: "\e91b";
+}
+.icon-check:before {
+  content: "\e91c";
+}
+.icon-pencil:before {
+  content: "\e91d";
+}

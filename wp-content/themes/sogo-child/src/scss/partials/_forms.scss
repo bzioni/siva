@@ -1,0 +1,26 @@
+select {
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Chrome */
+  -webkit-appearance: none;
+  /* For IE10 */
+  &::-ms-expand {
+    display: none;
+  }
+}
+
+.arrowdown {
+  position: relative;
+  &:after {
+    font-family: icomoon;
+    content: '\e900';
+    @extend .y-align;
+    @extend .pos-r-2;
+    pointer-events: none;
+    color: theme-color('color-3;')
+  }
+}
+
+label:not(.custom-control-label) {
+  @extend .mb-0, .h5;
+}

@@ -1,0 +1,46 @@
+.wpcf7 {
+  .wpcf7-not-valid {
+    border-color: $danger !important;
+  }
+  .ajax-loader {
+    @extend .xy-align;
+    /*
+      - original from: https://icons8.com/preloaders/en
+      - in case need to edit: just open the file ajax-loader.svg and replace the fill color to all dots
+     */
+    background-image: url("assets/images/ajax-loader.svg") !important;
+    width: 24px !important;
+    height: 24px !important;
+    margin: 0 !important;
+  }
+  &.cf7-sending {
+    button[type=submit] {
+      span {
+        opacity: 0;
+      }
+    }
+  }
+  .wpcf7-form-control-wrap {
+    display: block;
+    .wpcf7-not-valid-tip {
+      @extend .text-bread-crumbs;
+      position: absolute;
+      left: 0;
+      //top: 2.5rem;
+      width: 100%;
+    }
+  }
+}
+
+body.rtl {
+
+  form.wpcf7-form {
+    direction: rtl;
+  }
+
+}
+
+.wpcf7-mail-sent-ok, .wpcf7-response-output, .wpcf7-validation-errors {
+  display: none !important;
+}
+

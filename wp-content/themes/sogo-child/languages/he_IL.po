@@ -1,0 +1,606 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sogo ChildTheme\n"
+"POT-Creation-Date: 2019-12-17 10:41+0200\n"
+"PO-Revision-Date: 2019-12-17 10:42+0200\n"
+"Last-Translator: \n"
+"Language-Team: Sogo <wpmaster@sogoc.o.il>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:22 page-thanks.php:18
+msgid "Back to homepage"
+msgstr "לעמוד הבית"
+
+#: archive-therapists.php:14
+msgid "Showing"
+msgstr "מציג"
+
+#: archive-therapists.php:14
+msgid "from"
+msgstr "מתוך"
+
+#: archive-therapists.php:14
+msgid "results"
+msgstr "תוצאות"
+
+#: front-page.php:136
+msgid "Full name"
+msgstr "שם מלא"
+
+#: front-page.php:137 page-signin.php:26
+#: templates/component-form-therapist.php:43
+msgid "Phone"
+msgstr "נייד"
+
+#: front-page.php:141 templates/component-form-family.php:7
+#: templates/component-form-therapist.php:36 templates/component-search.php:40
+msgid "Gender"
+msgstr "מגדר"
+
+#: front-page.php:142 front-page.php:146 front-page.php:151 front-page.php:155
+#: templates/component-form-family.php:8 templates/component-form-family.php:15
+#: templates/component-form-family.php:21
+#: templates/component-form-family.php:25
+#: templates/component-form-therapist.php:37
+#: templates/component-form-therapist.php:48
+#: templates/component-form-therapist.php:52
+#: templates/component-form-therapist.php:58
+#: templates/component-form-therapist.php:62 templates/component-search.php:41
+#: templates/component-search.php:47 templates/component-search.php:53
+#: templates/component-search.php:79 templates/component-search.php:85
+#: templates/component-search.php:91
+msgid "Male"
+msgstr "זכר"
+
+#: front-page.php:143 front-page.php:147 front-page.php:152 front-page.php:156
+#: templates/component-form-family.php:9 templates/component-form-family.php:16
+#: templates/component-form-family.php:22
+#: templates/component-form-family.php:26
+#: templates/component-form-therapist.php:38
+#: templates/component-form-therapist.php:49
+#: templates/component-form-therapist.php:53
+#: templates/component-form-therapist.php:59
+#: templates/component-form-therapist.php:63 templates/component-search.php:42
+#: templates/component-search.php:48 templates/component-search.php:54
+#: templates/component-search.php:80 templates/component-search.php:86
+#: templates/component-search.php:92
+msgid "Female"
+msgstr "נקבה"
+
+#: front-page.php:144 front-page.php:148 front-page.php:153 front-page.php:157
+#: templates/component-form-family.php:17
+#: templates/component-form-family.php:23
+#: templates/component-form-family.php:27
+msgid "Select"
+msgstr "בחירה"
+
+#: front-page.php:145 templates/component-form-family.php:24
+msgid "Nursing status"
+msgstr "מצב סיעודי"
+
+#: front-page.php:149
+msgid "Address"
+msgstr "כתובת"
+
+#: front-page.php:150
+msgid "Personal status"
+msgstr "מצב אישי"
+
+#: front-page.php:154
+msgid "National insurance eligibility"
+msgstr "זכאות מביטוח לאומי"
+
+#: front-page.php:158
+msgid "About the therapist"
+msgstr "כתבו קצת על המטפל/ת אותו אתם מחפשים"
+
+#: front-page.php:163 page-signin.php:56
+msgid "Submit"
+msgstr "שלח"
+
+#: functions.php:104
+msgid "General page"
+msgstr "דף כללי"
+
+#: functions.php:173 header.php:122
+msgid "Family"
+msgstr "משפחה"
+
+#: functions.php:174 header.php:122
+msgid "Therapist"
+msgstr "מטפל/ת"
+
+#: header.php:46
+msgid "Edit details"
+msgstr "עריכת פרטים"
+
+#: header.php:50
+msgid "Signup / signin"
+msgstr "הרשמה / התחברות"
+
+#: header.php:113
+msgid "Search Results for"
+msgstr "תוצאות חיפוש עבור"
+
+#: header.php:118 templates/component-search.php:3
+#: templates/component-search.php:65 templates/component-search.php:99
+msgid "Find therapists"
+msgstr "מצא מטפל/ת"
+
+#: header.php:124
+#, php-format
+msgid "Search Results for: %s"
+msgstr "תוצאות חיפוש עבור:  %s"
+
+#: home.php:17
+msgid "All articles"
+msgstr "כל הכתבות"
+
+#: home.php:58
+msgid "No results found"
+msgstr "לא נמצאו תוצאות"
+
+#: lib/ajax-requests.php:10
+msgid "User is already exists, please go to LOGIN page"
+msgstr "משתמש קיים, יש לעבור לעמוד התחברות"
+
+#: lib/ajax-requests.php:14 lib/ajax-requests.php:96 lib/ajax-requests.php:150
+#: lib/ajax-requests.php:185
+msgid "Permission denied"
+msgstr "מצטערים, לא ניתן להמשיך מטעמי אבטחה - ניתן לפנות לשירות לקוחות"
+
+#: lib/ajax-requests.php:19 lib/ajax-requests.php:142
+msgid "Code is not valid"
+msgstr "הקוד אינו תקין"
+
+#: lib/ajax-requests.php:81
+msgid "User register successfully"
+msgstr "ההרשמה בוצעה בהצלחה"
+
+#: lib/ajax-requests.php:128
+msgid "Profile update successfully"
+msgstr "עדכון הפרופיל התבצע בהצלחה"
+
+#: lib/ajax-requests.php:145
+msgid "User is not exists, please sign up first"
+msgstr "משתמש לא קיים, יש להירשם למערכת"
+
+#: lib/ajax-requests.php:162
+msgid "Wrong username / password"
+msgstr "שם משתמש / סיסמה שגויים"
+
+#: lib/ajax-requests.php:169
+msgid "User signin successfully"
+msgstr "ההתחברות בוצעה בהצלחה"
+
+#: lib/ajax-requests.php:191
+msgid "Email or username is required"
+msgstr "נדרש שם משתמש או אימייל"
+
+#: lib/ajax-requests.php:193
+msgid "Invalid username or e-mail address"
+msgstr "שם משתמש או אימייל לא תקין"
+
+#: lib/ajax-requests.php:195
+msgid "There is no user registered with that email address"
+msgstr "אין לנו במערכת משתמש עם האימייל הזה"
+
+#: lib/ajax-requests.php:222
+msgid "Check your email address for you new password"
+msgstr "בדוק את כתובת המייל שהזנת עבור הסיסמה החדשה שלך"
+
+#: lib/ajax-requests.php:226
+msgid "Oops something went wrong updaing your account"
+msgstr "אופס, משהו השתבש בתהליך עדכון הפרופיל שלך"
+
+#: lib/ajax-requests.php:262
+msgid "No recipients"
+msgstr "אין נמענים"
+
+#: lib/ajax-requests.php:273 lib/ajax-requests.php:292
+msgid "Message sent successfully"
+msgstr "ההודעה נשלחה בהצלחה"
+
+#: lib/ajax-requests.php:287
+msgid "Phone is not valid"
+msgstr "הטלפון אינו תקין"
+
+#: lib/ajax-requests.php:308 lib/helpers.php:129
+msgid "Your code is"
+msgstr "הקוד שלך הוא"
+
+#: lib/ajax-requests.php:312
+msgid "Code sent again, we disabled the button to prevent spam"
+msgstr "הקוד נשלח שוב"
+
+#: lib/functions_template/load_more.php:26
+msgid "Published"
+msgstr "פורסם ב"
+
+#: lib/helpers.php:191
+msgid "Username already exists"
+msgstr "שם משתמש כבר קיים"
+
+#: lib/post-type-init.php:8
+msgid "Therapists"
+msgstr "מטפלים"
+
+#: lib/widget.php:18
+msgid "Footer column 1"
+msgstr "עמודה פוטר 1"
+
+#: lib/widget.php:28
+msgid "Footer column "
+msgstr "עמודת פוטר "
+
+#: page-forms.php:13
+msgid "All forms"
+msgstr "כל הטפסים"
+
+#: page-signin.php:24 page-signin.php:37
+msgid "Login"
+msgstr "התחברות"
+
+#: page-signin.php:29
+msgid "Remember password"
+msgstr "זכור אותי"
+
+#: page-signin.php:46
+msgid "Reset password"
+msgstr "שחזור סיסמה"
+
+#: page-signin.php:48 templates/component-form-therapist.php:44
+msgid "Email"
+msgstr "אימייל"
+
+#: page-signin.php:51
+msgid "Back to login"
+msgstr "חזרה להתחברות"
+
+#: page-signin.php:69
+msgid "Create account"
+msgstr "צור חשבון"
+
+#: page-signin.php:73
+msgid "Family signup"
+msgstr "הרשמה משפחות"
+
+#: page-signin.php:82
+msgid "Therapist signup"
+msgstr "הרשמה מטפלים"
+
+#: searchform.php:10 searchform.php:11
+msgid "Search"
+msgstr "חיפוש"
+
+#: single-therapists.php:33 templates/component-form-therapist.php:74
+msgid "About me"
+msgstr "מי אני בקצרה"
+
+#: single-therapists.php:40 templates/component-form-therapist.php:78
+msgid "Recommendations"
+msgstr "המלצות"
+
+#: single-therapists.php:50 templates/component-form-therapist.php:85
+msgid "My preferences"
+msgstr "העדפות שלי"
+
+#: single-therapists.php:56 templates/component-form-therapist.php:89
+msgid "Work with women"
+msgstr "רוצה לעבוד עם אישה"
+
+#: single-therapists.php:57 templates/component-form-therapist.php:90
+msgid "Work with men"
+msgstr "רוצה לעבוד עם גבר"
+
+#: single-therapists.php:58 templates/component-form-therapist.php:91
+msgid "Including weekends"
+msgstr "כולל סופי שבוע"
+
+#: single-therapists.php:59 templates/component-form-therapist.php:92
+msgid "Like animals"
+msgstr "מתאים עם בעלי חיים"
+
+#: single-therapists.php:60 templates/component-form-therapist.php:93
+#: templates/component-therapist-main-info.php:26
+msgid "Including sleeping"
+msgstr "עם לינה"
+
+#: single-therapists.php:81 templates/component-form-therapist.php:104
+msgid "My capabilities"
+msgstr "היכולות שלי"
+
+#: single-therapists.php:87 templates/component-form-therapist.php:108
+msgid "Cooking"
+msgstr "בישול"
+
+#: single-therapists.php:88 templates/component-form-therapist.php:109
+msgid "Dressing"
+msgstr "הלבשה"
+
+#: single-therapists.php:89 templates/component-form-therapist.php:110
+msgid "Cleaning"
+msgstr "ניקיון"
+
+#: single-therapists.php:90 templates/component-form-therapist.php:111
+msgid "Diapers"
+msgstr "חיתולים"
+
+#: single-therapists.php:91 templates/component-form-therapist.php:112
+msgid "Washing"
+msgstr "רחיצה"
+
+#: single-therapists.php:92 templates/component-form-therapist.php:113
+msgid "Lifting"
+msgstr "הרמות"
+
+#: single-therapists.php:113 templates/component-form-therapist.php:124
+msgid "More info"
+msgstr "פרטים נוספים"
+
+#: single-therapists.php:119 templates/component-form-therapist.php:128
+msgid "Certified first aid"
+msgstr "מוסמך קורס עזרה ראשונה"
+
+#: single-therapists.php:120 templates/component-form-therapist.php:129
+msgid "Certified CPR"
+msgstr "מוסמך קורס החייאה"
+
+#: single-therapists.php:121 templates/component-form-therapist.php:130
+msgid "Driving license"
+msgstr "רישיון נהיגה"
+
+#: single-therapists.php:122 templates/component-form-therapist.php:131
+msgid "Smoking"
+msgstr "מעשן"
+
+#: single-therapists.php:123 templates/component-form-therapist.php:132
+msgid "Computers"
+msgstr "מחשבים"
+
+#: single-therapists.php:141 templates/component-form-therapist.php:140
+msgid "Professional experience"
+msgstr "ניסיון תעסוקתי"
+
+#: single-therapists.php:152
+msgid "Contact the therapist"
+msgstr "צור קשר עם המטפל/ת"
+
+#: single-therapists.php:158
+msgid "Show phone number"
+msgstr "הצג מספר טלפון"
+
+#: single-therapists.php:171
+msgid "Send email message"
+msgstr "שלח הודעה במייל"
+
+#: single-therapists.php:179
+msgid "Website signup"
+msgstr "על מנת לצפות בפרטים המלאים ליצירת קשר, עליך להתחבר לאתר"
+
+#: single-therapists.php:183
+msgid "Signup to website"
+msgstr "הרשמה לאתר"
+
+#: single-therapists.php:189
+msgid "Already have account"
+msgstr "כבר יש לך חשבון"
+
+#: single-therapists.php:190
+msgid "Signin"
+msgstr "התחברות"
+
+#: single-therapists.php:205
+msgid "More therapists"
+msgstr "מטפלים נוספים"
+
+#: single-therapists.php:207
+msgid "To all therapists"
+msgstr "לכל המטפלים"
+
+#: single.php:24
+msgid "Categories"
+msgstr "קטגוריות"
+
+#: single.php:59 single.php:64
+msgid "More articles"
+msgstr "עוד מאמרים"
+
+#: templates/component-box-1.php:7
+msgid "Read more"
+msgstr "קרא עוד"
+
+#: templates/component-box-2.php:23
+msgid "For more info"
+msgstr "למידע נוסף"
+
+#: templates/component-form-family.php:4
+#: templates/component-form-therapist.php:30
+msgid "Personal Details"
+msgstr "פרטים אישיים"
+
+#: templates/component-form-family.php:6
+msgid "Patient name"
+msgstr "שם המטופל"
+
+#: templates/component-form-family.php:13
+msgid "City"
+msgstr "עיר מגורים"
+
+#: templates/component-form-family.php:14
+msgid "Dependency"
+msgstr "ניידות ועצמאות"
+
+#: templates/component-form-family.php:20
+msgid "Living inhouse"
+msgstr "מגורים בבית"
+
+#: templates/component-form-family.php:30
+msgid "Contact person"
+msgstr "שם איש קשר"
+
+#: templates/component-form-family.php:31
+msgid "Contact phone"
+msgstr "טלפון איש קשר"
+
+#: templates/component-form-family.php:34
+msgid "Contact mail"
+msgstr "מייל איש קשר"
+
+#: templates/component-form-family.php:35
+msgid "Confirm"
+msgstr "אני מאשר/ת את"
+
+#: templates/component-form-family.php:35
+msgid "Website policy"
+msgstr "תקנון האתר"
+
+#: templates/component-form-family.php:43
+#: templates/component-form-therapist.php:150
+msgid "Logout"
+msgstr "התנתקות"
+
+#: templates/component-form-family.php:51
+#: templates/component-form-therapist.php:158
+msgid "Signup"
+msgstr "הרשמה"
+
+#: templates/component-form-family.php:51
+#: templates/component-form-therapist.php:158
+msgid "Update"
+msgstr "עדכון פרופיל"
+
+#: templates/component-form-therapist.php:32
+msgid "First name"
+msgstr "שם פרטי"
+
+#: templates/component-form-therapist.php:33
+msgid "Last name"
+msgstr "שם משפחה"
+
+#: templates/component-form-therapist.php:40 templates/component-search.php:90
+msgid "Country"
+msgstr "ארץ מוצא"
+
+#: templates/component-form-therapist.php:47 templates/component-search.php:52
+#: templates/component-therapist-main-info.php:21
+msgid "License area"
+msgstr "איזור רישיון"
+
+#: templates/component-form-therapist.php:50
+msgid "Select license area"
+msgstr "בחר איזור רישיון"
+
+#: templates/component-form-therapist.php:51 templates/component-search.php:84
+#: templates/component-therapist-main-info.php:32
+msgid "Favorite area"
+msgstr "אזור מועדף לעבודה"
+
+#: templates/component-form-therapist.php:54
+msgid "Select favorite area"
+msgstr "בחר איזור מועדף לעבודה"
+
+#: templates/component-form-therapist.php:57 templates/component-search.php:46
+#: templates/component-therapist-main-info.php:11
+msgid "Languages"
+msgstr "שפות"
+
+#: templates/component-form-therapist.php:60
+msgid "Select languages"
+msgstr "בחר שפות"
+
+#: templates/component-form-therapist.php:61 templates/component-search.php:78
+#: templates/component-therapist-main-info.php:16
+msgid "Position type"
+msgstr "היקף משרה"
+
+#: templates/component-form-therapist.php:64
+msgid "Select position type"
+msgstr "בחר היקף משרה"
+
+#: templates/component-form-therapist.php:171
+msgid "Settings"
+msgstr "הגדרות"
+
+#: templates/component-form-therapist.php:175
+msgid "Account status"
+msgstr "מצב חשבון"
+
+#: templates/component-form-therapist.php:176
+msgid "Account active"
+msgstr "פעיל"
+
+#: templates/component-form-therapist.php:177
+msgid "Account not active"
+msgstr "לא פעיל"
+
+#: templates/component-search.php:16
+msgid "Regular"
+msgstr "רגיל"
+
+#: templates/component-search.php:29
+msgid "Advanced"
+msgstr "מתקדם"
+
+#: templates/component-search.php:43 templates/component-search.php:49
+#: templates/component-search.php:87 templates/component-search.php:93
+msgid "Never mind"
+msgstr "לא משנה"
+
+#: templates/component-search.php:55
+msgid "All areas"
+msgstr "כל האיזורים"
+
+#: templates/component-search.php:81
+msgid "All kinds"
+msgstr "כל הסוגים"
+
+#: templates/component-therapist-main-info.php:5
+msgid "Has recommendations"
+msgstr "יש המלצות"
+
+#: templates/component-therapist-main-info.php:27
+msgid "Yes"
+msgstr "כן"
+
+#: templates/component-therapist-main-info.php:27
+msgid "No"
+msgstr "לא"
+
+#: templates/component-therapist-title.php:4
+msgid "Male therapist"
+msgstr "מטפל"
+
+#: templates/component-therapist-title.php:4
+msgid "Female therapist"
+msgstr "מטפלת"
+
+#: templates/component-validate-user.php:5
+msgid "Please type the code you got on the phone"
+msgstr "נא להקליד את הקוד שקיבלת לטלפון"
+
+#: templates/component-validate-user.php:9
+msgid "Send code again"
+msgstr "שלח קוד שוב"
+
+#: templates/component-validate-user.php:15
+msgid "Continue"
+msgstr "המשך"
+
+#~ msgid "Username"
+#~ msgstr "שם משתמש"
+
+#~ msgid "Password"
+#~ msgstr "סיסמה"
+
+#~ msgid "Forgot password"
+#~ msgstr "שכחת סיסמה"

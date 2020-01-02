@@ -1,0 +1,94 @@
+$font-size-base: 1rem !default;
+$font-family-sans-serif: 'Rubik', sans-serif !default;
+$font-family-base: $font-family-sans-serif;
+$spacer: 2rem;
+
+$font-weight-lighter: 100 !default;
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-bold: 700 !default;
+$font-weight-bolder: 900 !default;
+
+$slider-title-font-size: $font-size-base * 5 !default;
+$slider-title-font-size-mobile: $font-size-base * 2.5 !default;
+$slider-title-font-weight: 300;
+
+$slider-subtitle-font-size: $font-size-base * 1.27 !default;
+$slider-subtitle-font-size-mobile: $font-size-base * 1.27 !default;
+$slider-subtitle-font-weight: 700;
+
+$h1-font-size: $font-size-base * 2.18 !default;
+$h1-font-size-mobile: $font-size-base * 1.87 !default;
+$h1-font-weight: 300;
+
+$h2-font-size: $font-size-base * 1.68 !default;
+$h2-font-size-mobile: $font-size-base * 1.5 !default;
+$h2-font-weight: 500;
+
+$h3-font-size: $font-size-base * 1.37 !default;
+$h3-font-size-mobile: $font-size-base * 1.37 !default;
+$h3-font-weight: 400;
+
+$h4-font-size: $font-size-base * 1.25 !default;
+$h4-font-size-mobile: $font-size-base * 1.25 !default;
+$h4-font-weight: 500;
+
+$h5-font-size: $font-size-base * 1.18 !default;
+$h5-font-size-mobile: $font-size-base * 1.18 !default;
+$h5-font-weight: 400;
+
+$h6-font-size: $font-size-base * 1.06 !default;
+$h6-font-size-mobile: $font-size-base * 1.06 !default;
+$h6-font-weight: 400;
+
+$p-font-size: $font-size-base * 0.93 !default;
+$p-font-size-mobile: $font-size-base * 0.93 !default;
+$p-font-weight: 400;
+
+$bread-crumbs-font-size: $font-size-base * 0.75 !default;
+$bread-crumbs-font-size-mobile: $font-size-base * 0.75 !default;
+$bread-crumbs-font-weight: 400;
+
+$icon-xxs: $font-size-base !default;
+$icon-xs: $font-size-base * 1.07 !default;
+$icon-s: $font-size-base * 1.60 !default;
+$icon-m: $font-size-base * 2.13 !default;
+$icon-l: $font-size-base * 3.20 !default;
+$icon-xl: $font-size-base * 4.27 !default;
+$icon-xxl: $font-size-base * 8 !default;
+
+$headings-margin-bottom: 0.5rem;
+$body-color: #070843 !default;
+$theme-colors: (
+        color-1: #070843,
+        color-2: #b6b6b6,
+        color-3: #29a9e1,
+);
+$link-color: #797979;
+$body-bg: #fafafa;
+$danger: #FF0000 !default;
+
+$link-decoration: none;
+$link-hover-decoration: none;
+$input-btn-font-size: 1.13rem;
+$input-border-radius: 5px;
+$input-bg: #fff;
+$input-border-width: 1px;
+$input-border-color: #b6b6b6;
+$input-focus-border-color: #29a9e1;
+$input-focus-box-shadow: none;
+$input-btn-padding-y: .50rem !default;
+$input-btn-padding-x: .75rem !default;
+$btn-font-size: 1.13rem;
+$btn-border-radius: 5px;
+$btn-border-width: 1px !default;
+$btn-line-height: 1 !default;
+$btn-focus-box-shadow: none !important !default;
+$border-radius: 5px;
+//$box-shadow-sm: 0 0 10px 0 rgba(87, 167, 230, 0.24) !default;
+//$box-shadow: 0 0 20px 0 rgba(87, 167, 230, 0.24) !default;
+//$box-shadow-lg: 0 0 29px 0 rgba(87, 167, 230, 0.24) !default;
+$component-active-bg: #070843;
+$custom-control-indicator-checked-border-color: #b6b6b6;
+$custom-checkbox-indicator-border-radius:0;
+$enable-validation-icons: false;

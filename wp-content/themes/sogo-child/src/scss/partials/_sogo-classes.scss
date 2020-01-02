@@ -1,0 +1,384 @@
+/*******************************************/
+/* 1. GENERAL */
+/* 2. BACKGROUND */
+/* 3. OVERFLOW */
+/* 4. OPACITY */
+/* 5. POSITIONS */
+/* 6. HOVER */
+/* 7. BORDER */
+/* 8. SIZING */
+/*******************************************/
+
+/*******************************************/
+/* GENERAL */
+/*******************************************/
+
+.ltr {
+  direction: ltr;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.pointer-none {
+  pointer-events: none;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+@each $color, $value in $theme-colors {
+  .text-#{$color}-simple {
+    color: $value
+  }
+  .bg-#{$color}-simple {
+    background-color: $value
+  }
+}
+
+.min-vh-75 {
+  min-height: 75vh !important
+}
+
+.vh-50 {
+  height: 50vh;
+}
+
+.transition {
+  @include transition;
+}
+
+.no-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+  &::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+  }
+}
+
+.no-focus {
+  &:focus {
+    outline: none !important;
+  }
+}
+
+.color-inherit {
+  color: inherit;
+}
+
+.white-space-nowrap {
+  white-space: nowrap;
+}
+
+.py-0-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/*******************************************/
+/* BACKGROUND */
+/*******************************************/
+
+.background-no-repeat {
+  background-repeat: no-repeat !important;
+}
+
+.background-cover {
+  background-size: cover !important;
+}
+
+.background-contain {
+  background-size: contain !important;
+}
+
+.background-center {
+  background-position: center center !important;
+}
+
+@each $color, $value in $theme-colors {
+  @for $i from 1 through 9 {
+    .bg-#{$color}-opacity-#{$i} {
+      background-color: rgba($value, $i * .1)
+    }
+  }
+}
+
+/*******************************************/
+/* OVERFLOW */
+/*******************************************/
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
+}
+
+.overflow-x-scroll {
+  overflow-x: scroll;
+}
+
+/*******************************************/
+/* OPACITY */
+/*******************************************/
+
+.opacity-1 {
+  opacity: 0.1;
+}
+
+.opacity-2 {
+  opacity: 0.2;
+}
+
+.opacity-3 {
+  opacity: 0.3;
+}
+
+.opacity-4 {
+  opacity: 0.4;
+}
+
+.opacity-5 {
+  opacity: 0.5;
+}
+
+.opacity-6 {
+  opacity: 0.6;
+}
+
+.opacity-7 {
+  opacity: 0.7;
+}
+
+.opacity-8 {
+  opacity: 0.8;
+}
+
+.opacity-9 {
+  opacity: 0.9;
+}
+
+.opacity-10 {
+  opacity: 1.0;
+}
+
+/*******************************************/
+/* POSITIONS */
+/*******************************************/
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    .position-#{$breakpoint}-relative {
+      position: relative !important;
+    }
+
+    .position-#{$breakpoint}-absolute {
+      position: absolute !important;
+    }
+
+    @each $prop,
+    $abbrev in (position: pos) {
+
+      @each $size,
+      $length in $spacers {
+
+        .#{$abbrev}-t#{$infix}-#{$size} {
+          top: $length !important;
+        }
+
+        .#{$abbrev}-r#{$infix}-#{$size} {
+          right: $length !important;
+        }
+
+        .#{$abbrev}-b#{$infix}-#{$size} {
+          bottom: $length !important;
+        }
+
+        .#{$abbrev}-l#{$infix}-#{$size} {
+          left: $length !important;
+        }
+      }
+    }
+
+    // Negative positions (e.g., where `.pos-b-n1` is negative version of `.pos-b-1`)
+    @each $size, $length in $spacers {
+      @if $size != 0 {
+        .pos-t#{$infix}-n#{$size} {
+          top: -$length !important;
+        }
+        .pos-r#{$infix}-n#{$size} {
+          right: -$length !important;
+        }
+        .pos-b#{$infix}-n#{$size} {
+          bottom: -$length !important;
+        }
+        .pos-l#{$infix}-n#{$size} {
+          left: -$length !important;
+        }
+      }
+    }
+
+  }
+}
+
+.z-index-0 {
+  z-index: 0;
+}
+
+@for $i from 1 through 10 {
+  .z-index-minus-#{$i} {
+    z-index: -#{$i};
+  }
+  .z-index-#{$i} {
+    z-index: #{$i};
+  }
+}
+
+/*******************************************/
+/* HOVER */
+/*******************************************/
+
+.hover-color-white {
+  &:hover {
+    *{
+      color: white !important;
+    }
+  }
+}
+
+.hover-bg-white {
+  &:hover {
+    background-color: white !important;
+  }
+}
+
+@each $color, $value in $theme-colors {
+
+  .hover-#{$color} {
+    &:hover {
+      color: $value !important;
+    }
+  }
+  .hover-all-#{$color} {
+    &:hover * {
+      color: $value !important;
+    }
+  }
+
+  .hover-bg-#{$color} {
+    &:hover {
+      background-color: $value !important;
+    }
+  }
+
+  @for $i from 1 through 9 {
+    .hover-bg-#{$color}-opacity-#{$i} {
+      &:hover {
+        background-color: rgba($value, $i * .1) !important;
+      }
+    }
+  }
+
+}
+
+/*******************************************/
+/* BORDER */
+/*******************************************/
+
+@for $i from 1 through 5 {
+
+  .border-#{$i} {
+    border: #{$i}px solid;
+  }
+
+  .border-right-#{$i} {
+    border-right: #{$i}px solid;
+  }
+
+  .border-left-#{$i} {
+    border-left: #{$i}px solid;
+  }
+
+  .border-bottom-#{$i} {
+    border-bottom: #{$i}px solid;
+  }
+  .border-top-#{$i} {
+    border-top: #{$i}px solid;
+  }
+
+}
+
+/*******************************************/
+/* SIZING */
+/*******************************************/
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    @each $prop,
+    $abbrev in (width: w) {
+
+      .#{$abbrev}#{$infix}-25 {
+        width: 25% !important;
+      }
+
+      .#{$abbrev}#{$infix}-50 {
+        width: 50% !important;
+      }
+
+      .#{$abbrev}#{$infix}-75 {
+        width: 75% !important;
+      }
+
+      .#{$abbrev}#{$infix}-100 {
+        width: 100% !important;
+      }
+
+      .#{$abbrev}#{$infix}-auto {
+        width: auto !important;
+      }
+
+    }
+
+  }
+}
+

@@ -1,0 +1,82 @@
+
+<h5 style="text-align:center"> Text H5 Lorem ipsum dolor </h5>
+
+
+
+<h2>Text H2 Lorem ipsum dolor</h2>
+
+
+
+<p>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+</p>
+
+
+
+<div class="wp-block-columns has-2-columns">
+<div class="wp-block-column">
+<h3>Text H3 Lorem ipsum dolor</h3>
+
+
+
+<ol><li>Lorem ipsum dolor sit amet <strong><a href="http://sogo.co.il">sogo.co.il</a></strong>adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</li><li>Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </li><li>Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </li></ol>
+
+
+
+<h4>Text H4 Lorem ipsum dolor</h4>
+
+
+
+<ul><li> Lorem ipsum dolor sit amet dolore eu fugiat adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </li><li> Lorem ipsum dolor sit amet dolore eu fugiat adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </li><li> Lorem ipsum dolor sit amet dolore eu fugiat adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </li></ul>
+
+
+
+<p></p>
+</div>
+
+
+
+<div class="wp-block-column">
+<figure class="wp-block-image"><img src="https://via.placeholder.com/600x500" alt="" class="wp-image-471" srcset="https://sandbox.sogo.co.il/halbershtain/wp-content/uploads/2019/11/photo1.jpg 604w, https://sandbox.sogo.co.il/halbershtain/wp-content/uploads/2019/11/photo1-300x248.jpg 300w" sizes="(max-width: 604px) 100vw, 604px" /></figure>
+</div>
+</div>
+
+
+
+<blockquote style="text-align:center" class="wp-block-quote"><p> “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation” </p></blockquote>
+
+
+
+<div class="wp-block-columns has-2-columns">
+<div class="wp-block-column">
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://via.placeholder.com/600x300" alt="" class="wp-image-476" srcset="https://sandbox.sogo.co.il/halbershtain/wp-content/uploads/2019/11/photo3.jpg 446w, https://sandbox.sogo.co.il/halbershtain/wp-content/uploads/2019/11/photo3-300x186.jpg 300w" sizes="(max-width: 446px) 100vw, 446px" /></figure></div>
+</div>
+
+
+
+<div class="wp-block-column">
+<h6 style="text-align:left">Text H6 Lorem ipsum dolor</h6>
+
+
+
+<p style="text-align:left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate. Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi. </p>
+
+
+
+<p></p>
+</div>
+</div>
+
+
+
+<div class="wp-block-image img-fluid wp-image-402 size-full"><figure class="aligncenter"><img src="https://via.placeholder.com/1554x350" alt="" class="wp-image-1599"/><figcaption>כותרת מתחת לתמונה label text</figcaption></figure></div>
+
+
+
+<h5>  Text H5 Lorem ipsum dolor</h5>
+
+
+
+<table class="wp-block-table has-fixed-layout"><tbody><tr><td>מוצר</td><td>תיאור</td><td>מחיר</td></tr><tr><td>לורם איפסום דולור</td><td>סיט אמט, קונסקטורר אדיפיסינג</td><td>₪ 345</td></tr><tr><td> לורם איפסום </td><td> סיט אמט, קונסקטורר אדיפיסימט, קונסקטורר אדיפיסינג </td><td>₪ 45</td></tr><tr><td>דולור </td><td> סיט אמט, קיפיסינג </td><td>₪ 3555</td></tr></tbody></table>

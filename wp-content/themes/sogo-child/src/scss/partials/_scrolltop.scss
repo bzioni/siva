@@ -1,0 +1,6 @@
+.back-to-top {
+  &.hide {
+    @extend .pos-b-n5;
+    @include transform(translateY(100%));
+  }
+}

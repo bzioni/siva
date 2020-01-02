@@ -1,0 +1,51 @@
+footer {
+  aside {
+    text-align: center;
+
+    i {
+      @include transition();
+      transform-origin: center;
+      line-height: 0;
+    }
+    ul {
+      @include transition();
+      height: 0;
+      opacity: 0;
+      transform: scaleY(0);
+      transform-origin: top;
+      padding: 0;
+      margin: 1rem 0 0;
+      li {
+        list-style: none;
+        a {
+          display: block;
+          margin-bottom: 0.5rem;
+          color: theme-color('color-1');
+          @extend .h6;
+          &:hover {
+            color: theme-color('color-3')
+          }
+        }
+      }
+    }
+    &.is-active {
+      ul {
+        opacity: 1;
+        height: 100%;
+        transform: scaleY(1);
+      }
+      i {
+        transform: rotate(180deg);
+      }
+    }
+    @include media-breakpoint-up(md) {
+      text-align: left;
+      ul {
+        opacity: 1;
+        height: 100%;
+        transform: scaleY(1);
+      }
+    }
+  }
+}
+

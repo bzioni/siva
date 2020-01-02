@@ -1,0 +1,13 @@
+.search-component {
+  .nav-link {
+    background-color: rgba($white, 0.2);
+    color: $white;
+    &:hover {
+      color: $white;
+    }
+    &.active {
+      background-color: $white !important;
+      color: theme-color('color-3') !important;
+    }
+  }
+}

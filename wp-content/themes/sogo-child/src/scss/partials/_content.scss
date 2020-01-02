@@ -1,0 +1,118 @@
+.entry-content {
+  color: $body-color;
+  line-height: 1.2;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  strong {
+    font-weight: 700;
+  }
+
+  p {
+    line-height: 1.36;
+    @extend .p;
+    margin-bottom: 1rem;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  h1 {
+    @extend .h1;
+    &:not(:last-child) {
+      margin-bottom: .5rem;
+    }
+  }
+
+  h2 {
+    @extend .h2;
+    &:not(:last-child) {
+      margin-bottom: .5rem;
+    }
+  }
+
+  h3 {
+    &:not(:last-child) {
+      margin-bottom: .5rem;
+      @media (min-width: 992px) {
+        margin-bottom: 1rem;
+      }
+
+    }
+    @extend .h3;
+
+  }
+
+  h4 {
+    &:not(:last-child) {
+      margin-bottom: .5rem;
+    }
+    @extend .h4;
+
+  }
+
+  h5 {
+    &:not(:last-child) {
+      margin-bottom: .25rem;
+    }
+    @extend .h5;
+
+  }
+
+  h6 {
+    &:not(:last-child) {
+      margin-bottom: .5rem;
+    }
+    @extend .h6;
+  }
+
+  ol {
+    padding-right: 0.5rem;
+    li {
+      @extend .p;
+
+      margin-bottom: .5rem;
+      list-style-position: outside;
+    }
+  }
+
+  ul {
+    padding-right: 0.6rem;
+    li {
+      @extend .p;
+
+      &:not(:last-child) {
+        margin-bottom: 0.2rem;
+      }
+      list-style: disc;
+      list-style-position: outside;
+    }
+  }
+
+  blockquote {
+    margin-bottom: 1.5rem;
+
+    p {
+      @extend .h2;
+      color: theme-color('color-3');
+      margin-bottom: 0;
+      font-style: italic;
+    }
+  }
+
+  figure {
+    margin: 0 0 1.5rem 0;
+    padding: 0;
+  }
+
+  figcaption {
+    @extend .text-bread-crumbs;
+
+    margin-top: .25rem;
+  }
+
+}

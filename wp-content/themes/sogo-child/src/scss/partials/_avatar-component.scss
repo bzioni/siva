@@ -1,0 +1,12 @@
+.avatar-img-wrapper {
+  width: 100px;
+  height: 100px;
+  @include media-breakpoint-up(md) {
+    width: 150px;
+    height: 150px;
+  }
+}
+.avatar-img-wrapper-archive {
+  width: 80px;
+  height: 80px;
+}

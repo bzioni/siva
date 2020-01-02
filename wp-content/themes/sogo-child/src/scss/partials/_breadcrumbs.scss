@@ -1,0 +1,8 @@
+#breadcrumbs * {
+  color: $white
+}
+.page-template-page-thanks, .error404 {
+  #breadcrumbs * {
+    color: theme-color('color-1')
+  }
+}

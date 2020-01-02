@@ -1,0 +1,11 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  text-align: left;
+}
+
+.container {
+  @extend .col-md-8;
+}
